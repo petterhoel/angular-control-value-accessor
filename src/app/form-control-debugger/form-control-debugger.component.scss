@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+div:hover {
+  background: yellow;
+  font-weight: bold;
+  color: black;
+}

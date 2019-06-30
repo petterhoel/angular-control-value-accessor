@@ -1,0 +1,9 @@
+input {
+}
+
+:host {
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  width: 100%;
+}
