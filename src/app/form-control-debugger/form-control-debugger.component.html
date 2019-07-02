@@ -1,6 +1,7 @@
-<div>Dirty:    {{ control.dirty }} </div>
-<div>Touched:  {{ control.touched }} </div>
-<div>Pristine: {{ control.pristine }} </div>
-<div>Status:   {{ control.status }} </div>
-<div>Disabled: {{ control.disabled }} </div>
-<div>Value:    {{ control.value }} </div>
+<div>Value:    </div> <div >{{ control.value }} </div>
+<div>Status:   </div> <div >{{ control.status }} </div>
+<div>Valid:    </div> <div [ngClass]="control.valid ? 'true' : 'false'">{{ control.valid }} </div>
+<div>Pristine: </div> <div [ngClass]="control.pristine ? 'true' : 'false'">{{ control.pristine }} </div>
+<div>Dirty:    </div> <div [ngClass]="control.dirty ? 'true' : 'false'">{{ control.dirty }} </div>
+<div>Touched:  </div> <div [ngClass]="control.touched ? 'true' : 'false'">{{ control.touched }} </div>
+<div>Disabled: </div> <div [ngClass]="control.disabled ? 'true' : 'false'">{{ control.disabled }} </div>

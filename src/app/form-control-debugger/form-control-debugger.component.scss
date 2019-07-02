@@ -1,12 +1,17 @@
 :host {
-  display: flex;
-  flex-direction: column;
+  padding: 4px;
+  background: rgb(6, 6, 37);
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  grid-column-gap: 20px;
   font-family: monospace;
   font-size: 14px;
 }
 
-div:hover {
-  background: yellow;
-  font-weight: bold;
-  color: black;
+.true {
+  color: #2fff5d;
+}
+
+.false {
+  color: hotpink;
 }
